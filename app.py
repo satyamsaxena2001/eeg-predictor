@@ -8,7 +8,7 @@ from sklearn.preprocessing import StandardScaler
 app = Flask(__name__)
 
 # Load the saved model
-loaded_model = load_model('./saved_weights/nueral_network.h5')
+loaded_model = load_model('nueral_network.h5')
 
 # Specify the directory to save uploaded Excel files
 UPLOAD_FOLDER = 'uploaded_files'
